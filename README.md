@@ -21,7 +21,7 @@ A library to easily interact with vCenter REST API.
     }
 
     // Get all VMs
-    let virtualMachines = apiClient.get("rest/vcenter/vm");
+    let virtualMachines = await apiClient.get("rest/vcenter/vm");
 
     // Get all Hosts
-    let hosts = apiClient.get("rest/vcenter/host");
+    let hosts = await apiClient.get("rest/vcenter/host");
