@@ -1,0 +1,26 @@
+{
+  "name": "vcenter-rest-client",
+  "version": "0.1.0",
+  "description": "A library to easily interact with vCenter REST API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/behindcurtain3/vcenter-rest-client.git"
+  },
+  "keywords": [
+    "vcenter"
+  ],
+  "author": "Justin Brown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/behindcurtain3/vcenter-rest-client/issues"
+  },
+  "homepage": "https://github.com/behindcurtain3/vcenter-rest-client#readme",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
